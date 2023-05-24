@@ -5,5 +5,11 @@ using namespace std;
 class manusia {
 public:
 	string nama;
+	jantung varJantung;
+
+	manusia(string pNama)
+		: nama(pNama) {
+		cout << nama << " hidup\n";
+	}
 };
 #endif
