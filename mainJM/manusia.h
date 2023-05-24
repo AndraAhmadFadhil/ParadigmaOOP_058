@@ -11,5 +11,8 @@ public:
 		: nama(pNama) {
 		cout << nama << " hidup\n";
 	}
+	~manusia() {
+		cout << nama << " mati\n";
+	}
 };
 #endif
